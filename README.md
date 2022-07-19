@@ -2,7 +2,7 @@
 This is our project
 Footer -> Kavita Uses features and find parking. And also responsibilities of functionality
 
-Footer container company -> 5 pages-> About  FAQS ContactUs PrivacyPolicy Channa And also responsibilities of functionality
+Footer container company -> Shivang kumar -> About  FAQS ContactUs PrivacyPolicy Channa And also responsibilities of functionality
 
 Home-> Sandeep Prajapati  And also responsibilities of functionality
 
