@@ -1,0 +1,226 @@
+#logo img{
+    width: 100%;
+}
+#logo{
+    border: 1px solid transparent;
+    width: 123px;
+    margin: auto;
+    padding-top: 27px;
+    padding-bottom: 2px;
+}
+
+#heading{
+    font-family: Arial,sans-serif;
+    border: 1px solid transparent;
+    width: 794px;
+    text-align: center;
+    margin: auto;
+}
+#heading h2{
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 43px;
+    color: #333;
+}
+#main{
+    align-items: start;
+    display: flex;
+    border: 1px solid transparent;
+    gap: 18px;
+    width: 98%;
+    margin: 10px 10px 0px 17px;
+    justify-content: space-between;
+}
+#facility{
+    background-color: #f6f6f6;
+    padding:25px 12px 20px 12px;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,190px);
+    
+
+    gap: 40px 20px;
+
+
+}
+.items{
+    border: 1px solid transparent;
+}
+
+
+h4{
+    font-family: 'Avenir next lt pro', sans-serif;  
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #333;
+}
+.items p{
+    font-family: 'Louis george cafe', sans-serif;
+    color:#a1a6af;
+    font-size:15px;
+    line-height: 25px;
+}
+.items:nth-child(2) p{
+    width: 105%;
+}
+.items img{
+    width: 50px; 
+    transition:animation 10ms;
+    transition-delay:10ms; 
+}
+ .items img:hover{
+    animation:image 800ms normal;
+} 
+@keyframes image {
+    0%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+    25%{transform: translate3d(0px, 0px, 0px) scale3d(0.782535, 0.782535, 0.782535) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+    50%{transform: translate3d(0px, 0px, 0px) scale3d(0.99625, 0.99625, 0.99625) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+    75%{transform: translate3d(0px, 0px, 0px) scale3d(0.859321, 0.859321, 0.859321) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+    100%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+}
+#container{
+    width: 43%;
+    border-radius: 2px;
+    text-align: center;
+    height: 620px;
+    overflow: auto;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+#container >h2{
+    text-align: center;
+    font-family: 'Avenir next lt pro', sans-serif;  
+    font-size: 19px;
+    margin-top: 27px;
+}
+#calendar{
+    border: 1px solid transparent;
+    width: 58%;
+    margin:auto;
+    height: 400px;
+}
+#month{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+#month p:nth-child(2){
+    border: 1px solid transparent;
+    width: 58px;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+#month p{
+    font-family: 'Avenir next lt pro', sans-serif;  
+}
+table{
+    border: 1px solid transparent;
+    width: 100%;
+
+}
+th{
+    font-family: 'Avenir next lt pro', sans-serif;  
+        font-size: 12px;
+    font-weight: 200;
+}
+tr td{
+    font-family: 'Avenir next lt pro', sans-serif;  
+    border: 1px solid transparent;
+    border-radius: 81px;
+    font-size: 14px;
+    text-align: center;
+    height: 35px;
+    color:gray;
+    width: 25px;
+}
+.Circle{
+    border: 1px solid transparent;
+    background: #fff9f6;
+    color: tomato;
+    cursor: pointer;
+    font-weight: 800;
+}
+.dote::after{
+    content: ".";
+    color: black;
+    position: relative;
+    right: 9px;
+    top: 7px;
+    font-size: 15px;
+}
+#datediv{
+    text-align: center;
+    border: 1px solid; 
+}
+#datediv div{
+    font-size: 14px;
+    width: 212px;
+    text-align: left;
+    padding: 5px 5px;
+    margin: 13px auto;
+  cursor: pointer;
+    border-radius: 42px;
+    border: 1px solid transparent;
+}
+#datediv div:hover{
+    border: 1px solid #edebeb;
+    background-color: #edebeb;;
+}
+#datediv div i,#days div I{
+    margin-right: 15px;
+    font-size: 13px;
+}
+#time div{
+    border: 0.7px solid orange;
+    width: 90%;
+    padding: 13px 5px;
+    margin: auto;
+    color: tomato;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#time div:hover{
+    border: 1.4px solid tomato;
+}
+#time{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+}
+.p{font-family: 'Avenir next lt pro', sans-serif;  
+    font-size: 14px;
+}
+.fa-arrow-left{
+    font-size: 20px;
+    position: relative;
+    /* top: 220px; */
+    bottom: 114px;
+    right: 215px;
+    color: tomato;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 7px 9px;
+}
+#days div{
+    font-size: 14px;
+    width: 212px;
+    text-align: left;
+    padding: 5px 5px;
+    margin-top: 18px;
+    cursor: pointer;
+    border-radius: 42px;
+    border: 1px solid transparent;
+}
+#days div:hover{
+    border: 1px solid #edebeb;
+    background-color: #edebeb;;
+}
