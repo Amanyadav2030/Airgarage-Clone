@@ -1,0 +1,139 @@
+#logo img{
+    width: 100%;
+}
+#logo{
+    border: 1px solid transparent;
+    width: 123px;
+    margin: auto;
+    padding-top: 27px;
+    padding-bottom: 2px;
+}
+
+#heading{
+    font-family: Arial,sans-serif;
+    border: 1px solid transparent;
+    width: 794px;
+    text-align: center;
+    margin: auto;
+}
+#heading h2{
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 43px;
+    color: #333;
+}
+#main{
+    display: flex;
+    border: 1px solid transparent;
+    gap: 18px;
+    width: 98%;
+    margin: 10px 10px 0px 17px;
+    justify-content: space-between;
+}
+#facility{
+    background-color: #f6f6f6;
+    padding:25px 12px 20px 12px;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,190px);
+    
+
+    gap: 40px 20px;
+
+
+}
+.items{
+    border: 1px solid transparent;
+}
+
+
+h4{
+    font-family: 'Avenir next lt pro', sans-serif;  
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #333;
+}
+.items p{
+    font-family: 'Louis george cafe', sans-serif;
+    color:#a1a6af;
+    font-size:15px;
+    line-height: 25px;
+}
+.items:nth-child(2) p{
+    width: 105%;
+}
+.items img{
+    width: 50px; 
+    transition:animation 10ms;
+    transition-delay:10ms; 
+}
+ .items img:hover{
+    animation:image 800ms normal;
+} 
+@keyframes image {
+    0%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+    25%{transform: translate3d(0px, 0px, 0px) scale3d(0.782535, 0.782535, 0.782535) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+    50%{transform: translate3d(0px, 0px, 0px) scale3d(0.99625, 0.99625, 0.99625) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+    75%{transform: translate3d(0px, 0px, 0px) scale3d(0.859321, 0.859321, 0.859321) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+    100%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+}
+#container{
+    border: 1px solid gray;
+    width: 43%;
+}
+#container >h2{
+    text-align: center;
+    font-family: 'Avenir next lt pro', sans-serif;  
+    font-size: 19px;
+    margin-top: 27px;
+}
+#calendar{
+    border: 1px solid transparent;
+    width: 58%;
+    margin:auto;
+    height: 400px;
+}
+#month{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+#month p:nth-child(2){
+    border: 1px solid transparent;
+    width: 58px;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+#month p{
+    font-family: 'Avenir next lt pro', sans-serif;  
+}
+table{
+    border: 1px solid transparent;
+    width: 100%;
+
+}
+th{
+    font-family: 'Avenir next lt pro', sans-serif;  
+        font-size: 12px;
+    font-weight: 200;
+}
+tr td{
+    font-family: 'Avenir next lt pro', sans-serif;  
+    border: 1px solid transparent;
+    border-radius: 81px;
+    font-size: 14px;
+    text-align: center;
+    height: 35px;
+    color:gray;
+    width: 25px;
+}
+.circle{
+    border: 1px solid orange;
+}
