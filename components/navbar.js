@@ -10,8 +10,8 @@ return  `
     </a>
     <a href="#"> 
         <p id="link1">Find parking</p> </a>
-    <a id="link2" href="#">Log in</a>
-    <a id= "link3" href="#">Talk to Sales</a>
+    <a id="link2" href="login.html">Log in</a>
+    <a id= "link3" href="TalkToSales.html">Talk to Sales</a>
     `
 
     

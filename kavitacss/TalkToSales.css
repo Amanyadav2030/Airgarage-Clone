@@ -83,14 +83,14 @@
         height: 50px;
         width: 300px;
         background-color: #fa824c;
-        border-radius: 10px;
+        border-radius: 6px;
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 20px;
         border: transparent;
-        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
-        transform-style: preserve-3d;
+        cursor: pointer;
     }
+
     #form>h2{
         width: 70%;
         margin: auto;
@@ -171,8 +171,13 @@ left: -10px;
 
     }
     #btn:hover{
-        animation: btn 800ms normal;
-        
+        animation:button 1s normal;
     }
+    @keyframes button {
+        0%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+        50%{transform: translate3d(0px, 0px, 0px) scale3d(0.84323, 0.84323, 0.84323) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+        100%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+    }
+   
 /* ******************************** */
    

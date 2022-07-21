@@ -1,6 +1,6 @@
 
 
-import navbar from "../components/navbar.js";
+import navbar from "./navbar.js";
 
 
 
