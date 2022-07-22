@@ -1,0 +1,95 @@
+
+#one{
+    
+    /* border:1px solid red; */
+    width:80px;
+    height:80px;
+    margin: auto;
+   border-radius: 40px;
+   margin-top: 80px;
+
+}
+#one>img{
+    width:100%;
+    height:100%;
+    border-radius: 30px;
+}
+#two{
+    margin: auto;
+    text-align: center;
+}
+#two>h1{
+
+    padding: 0;
+    font-family: "Lato","Helvetica Neue",Arial,Helvetica,sans-serif;
+    
+}
+
+#three{
+margin-left: 150px;
+    /* border:1px solid red; */
+    height:800px;
+    width:80%;
+}
+#three>.name{
+    border:1px solid white;
+    height:45px;
+    width:100%;
+    border-radius: 7px;
+    font-size: 120%;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+   color: rgb(65, 64, 64);
+   background: #f2f2f2;
+}
+#three>h1{
+    display: block;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    color: rgba(0,0,0,.87);
+   font-size: 120%;
+    font-weight: 700;
+    text-transform: none;
+}
+#three>.name1{
+    border:1px solid white;
+    height:145px;
+    width:100%;
+    border-radius: 7px;
+    font-size: 120%;
+    box-shadow: rgba(81, 80, 80, 0.2) 0px 2px 8px 0px;
+   color: #333;
+   background: #f2f2f2;
+  
+}
+#three>.name{
+    box-shadow: rgba(81, 80, 80, 0.2) 0px 2px 8px 0px;
+   color: rgb(76, 74, 74);
+ 
+}
+#three>.name>.mybhai{
+  
+}
+option{
+    box-shadow: rgba(81, 80, 80, 0.2) 0px 2px 8px 0px;;
+    font-size: 20px;
+    color: #747086!important;
+}
+#three>#btn{
+    font-size: 20px;
+    margin-top: 40px ;
+    width:100%;
+    height:45px;
+    border-radius: 7px;
+    background-color: #ffeecc;
+    color: #fa824c;
+    box-shadow: inset 0 0 0 1px transparent, inset 0 0 0 0 rgb(34 36 38 / 15%);
+    border: 1px solid #ffeecc;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
