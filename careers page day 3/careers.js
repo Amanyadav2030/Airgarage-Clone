@@ -1,4 +1,5 @@
-import navbar from "../components/navbar.js";
+import navbar from "../careers page day 3/components/navbar.js";
+
 
 
 
