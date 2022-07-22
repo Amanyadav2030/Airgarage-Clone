@@ -5,9 +5,14 @@ function verify(){
     let a  = Math.floor(Math
     .random() * (maxm - minm + 1)) + minm;
     // console.log(a);
+    if(user.length>0){
     alert(a);  
     localStorage.setItem('user',user);
     localStorage.setItem('key', a);
+    window.location.href="verify.html"
+    }else{
+        alert("Please enter valid details");
+    }
 }
 
 
