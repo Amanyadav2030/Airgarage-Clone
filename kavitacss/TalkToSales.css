@@ -71,6 +71,7 @@
        box-shadow: 1px 1px 18px 3px hsla(0, 0%, 92%, 0.6); 
        margin-top: 10px;
     }
+    
     #btn{
         height: 50px;
         width: 300px;
@@ -86,6 +87,7 @@
     #form>h2{
         width: 70%;
         margin: auto;
+        margin-top: 20px;
     }
     #top2{
         width: 60%;
@@ -281,7 +283,7 @@ margin-left: 15px;
         #top7>div:hover{
 border:1px solid gray ;
         }
-        #top7>div>img:hover{
+        #submit>div>img:hover{
             animation:image 800ms normal;
         } 
         @keyframes image {
@@ -339,7 +341,7 @@ justify-content: center;
 }
    #images>div>img{
     height: 80%;
-    width: 100%;
+    width: 80%;
 }
 #bottom{
     border: 1px solid transparent;
@@ -382,5 +384,14 @@ margin: auto;
     
 }
 
-   
+#top7>div>img:hover{
+    animation:image 800ms normal;
+} 
+@keyframes image {
+    0%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+    25%{transform: translate3d(0px, 0px, 0px) scale3d(0.782535, 0.782535, 0.782535) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+    50%{transform: translate3d(0px, 0px, 0px) scale3d(0.99625, 0.99625, 0.99625) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+    75%{transform: translate3d(0px, 0px, 0px) scale3d(0.859321, 0.859321, 0.859321) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+    100%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+}
 

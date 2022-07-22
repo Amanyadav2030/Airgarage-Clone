@@ -182,3 +182,25 @@
 </div>
 </body>
 </html>
+<script>
+//     document.querySelector('#form').addEventListener('submit',function(event){
+//     window.location.href="lead.html";
+//     event.preventDefault();
+// })
+
+document.getElementById("form").addEventListener("submit",myFunction);
+
+function myFunction(event){
+    event.preventDefault()
+    var data= {
+        name:form.name.value,
+         email: form.email.value,
+         mobile: form.mobile.value,
+         location:form.location.value,
+    }
+    
+     window.location.href="lead.html"
+}
+
+
+</script>
