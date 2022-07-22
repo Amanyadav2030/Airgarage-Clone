@@ -1,167 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Service Agreement</title>
     <style>
-        #nav{
-            /* border: 2px solid red; */
-            display: flex;
-            text-align: center;
-            justify-content: center;
-            gap: 100px;
-            height: 80px;
-            background-color: antiquewhite;
-            margin-top: -10px;
-            width: 100%;
-        }
-        a{
-            text-decoration: none;
-        }
-        #img{
-            width: 30%;
-            margin-top: 20px;
-        }
-        #nav2{
-            margin-top: 30px;
-            width: 30%;
-            color: black;
-        }
-        #getademo{
-            color: black;
-        }
-        #con{
-            /* border: 2px solid red; */
-            margin-top: 60px;
-            display: flex;
-            margin-left: 10%;
-            margin-right: 10%;
-            gap: 10px;
-            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-        }
-        a:hover {
-            color: red;
-        }
-        #con1{
-            background-color: antiquewhite;
-            width: 50%;
-            /* border: 2px solid red; */
-            
-        }
-        h1{
-            color:rgb(238, 136, 41);
-            margin-left: 20px;
-        }
-        h2{
-            margin-left: 20px;
-        }
-        #con1>p{
-            margin-top: -20px;
-            margin-left: 20px;
-        }
-        #con2{
-            /* border: 2px solid red; */
-            width: 50%;
-
-        }
-        #con1>h1{
-           margin-top: 200px;
-        }
-        #con2>p{
-            margin-top: 100px;
-        }
-        #myBtn{
-            display: none; /* Hidden by default */
-            position: fixed; /* Fixed/sticky position */
-            bottom: 20px; /* Place the button at the bottom of the page */
-            right: 30px; /* Place the button 30px from the right */
-            z-index: 99; /* Make sure it does not overlap */
-            border: none; /* Remove borders */
-            outline: none; /* Remove outline */
-            background-color: red; /* Set a background color */
-            color: white; /* Text color */
-            cursor: pointer; /* Add a mouse pointer on hover */
-            padding: 15px; /* Some padding */
-            border-radius: 10px; /* Rounded corners */
-            font-size: 18px; /* Increase font size */
-        }
-        #myBtn:hover{
-            background-color: #555; /* Add a dark-grey background on hover */
-        }
+      #nav {
+        /* border: 2px solid red; */
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 100px;
+        height: 80px;
+        background-color: #ffeecc;
+        margin-top: -10px;
+        width: 100%;
+      }
+      a {
+        text-decoration: none;
+      }
+      #img {
+        width: 30%;
+        margin-top: 20px;
+      }
+      #nav2 {
+        margin-top: 30px;
+        width: 30%;
+        color: black;
+      }
+      #getademo {
+        color: black;
+      }
+      #con {
+        /* border: 2px solid red; */
+        margin-top: 60px;
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        gap: 10px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+          rgba(17, 17, 26, 0.1) 0px 8px 24px,
+          rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      }
+      a:hover {
+        color: red;
+      }
+      #con1 {
+        background-color: antiquewhite;
+        width: 50%;
+        /* border: 2px solid red; */
+      }
+      h1 {
+        color: rgb(238, 136, 41);
+        margin-left: 20px;
+      }
+      h2 {
+        margin-left: 20px;
+      }
+      #con1 > p {
+        margin-top: -20px;
+        margin-left: 20px;
+      }
+      #con2 {
+        /* border: 2px solid red; */
+        width: 50%;
+      }
+      #con1 > h1 {
+        margin-top: 200px;
+      }
+      #con2 > p {
+        margin-top: 100px;
+      }
+      #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: red; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+      }
+      #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="nav">
-       <div><img id="img"  src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png" alt="AirGarage"></div>
-       <div id="nav2"> <a id="getademo" href="#">Get a Demo</a> </div>
+      <div>
+        <img
+          id="img"
+          src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png"
+          alt="AirGarage"
+        />
+      </div>
+      <div id="nav2">
+        <a id="getademo" href="index.html">Get a Demo</a>
+      </div>
     </div>
     <div id="con">
-        <div id="con1">
-            <h2>AirGarage Services Agreement</h2>
-            <h1>Services and Support</h1>
-            <p>Basically: we help you advertise your unused spaces, collect payments from drivers, and enforce against illegal parking.</p>
-            <h1>Responsibilities</h1>
-            <p>Basically: please don't break the law while using our service. We'll cover the up front investment to bring your lot online but we don't cover the ongoing cost of maintaining your parking spaces.</p>
-            <h1>Payments</h1>
-           <p>Basically: we'll securely collect payments from drivers on your behalf and pay you at the end of each month.</p> 
-            <h1>Term</h1>
-           <p>‍Basically: we aren't happy if you aren't happy -- you can cancel at anytime with 14 days notice.</p> 
-            <h1>Dispute Resolution</h1>
-            <p>‍Basically: if you're unhappy with us for some reason, we prefer to have an open dialogue before you sue us into oblivion.</p>
-            <h1>Disclaimers</h1>
-            <p>Basically: we'll do our best to keep our service running without interruption, but please forgive any occasional server hiccups.</p>
-        </div>
-        <div id="con2">
-            <p>This Services Agreement (“Agreement”) is entered into on the date of account creation (the “Effective Date”) between AirGarage, Inc., with a place of business at 2261 Market St #4027, San Francisco CA 94114 (“AirGarage”), and the account creator or user, with a place of business as listed in their parking spot listing (“Customer”).</p>
-            <p>AirGarage provides a parking management solution that allows parking garage and lot owners to register parking spots, set parking prices, advertise and lease their identified parking spaces to potential users as well as related setup and ongoing services (the “Services”). Subject to the terms of this Agreement, AirGarage will use commercially reasonable efforts to provide the Services to Customer</p>
-            <p>Customer will use the Services only in compliance with this Agreement and all applicable laws and regulations. Customer agrees to indemnify and hold harmless AirGarage against any damages, losses, liabilities, settlements and expenses (including without limitation costs and attorneys’ fees) in connection with any claim or action that arises from Customer’s violation of this Agreement or otherwise from its use of the Services.
-                Customer agrees to indemnify and hold harmless AirGarage against any damages or liabilities (including without limitation costs and attorneys’ fees) in connection with any claim or action that arises from Customer’s use of the Services.</p>
-            <p>Customer shall cooperate with AirGarage in its performance of the Services and provide access to Customer’s premises, equipment or service providers as required to enable AirGarage to provide the Services.</p>
-            <p>Customer authorizes AirGarage to enforce any parking requirements or conditions, including towing or immobilization of automobiles, on behalf of Customer.
-                ‍</p>
-            <p>AirGarage agrees to pay for all physical signage and related installation costs necessary to provide the Services.</p>
-            <p>AirGarage shall own and retain all right, title, and interest in and to any signage or equipment provided as part of the Services.
-            </p>
-            <p>AirGarage maintains an umbrella insurance policy having the specific terms set forth in the Certificate of Liability Insurance to be provided to Customer subsequent to the execution of this Agreement. AirGarage shall use its best efforts to continue to maintain the same or a substantially identical umbrella insurance policy during the term of the Agreement.</p>
-            <p>Customer alone is responsible for the maintenance and upkeep of Customer’s parking garage or lot.</p>
-            <p>AirGarage shall collect parking and related fees from parking lot users in accordance with the applicable price listed by AirGarage on its website for the use of designated parking spots (“User Payments”). AirGarage will retain 30% of any User Payments for the Services provided to Customer (“Services Fees”) and shall disburse the remainder of User Payments, less these Services Fees, to Customer on a monthly basis by the fifth day of each month for all amounts accrued in the prior month (the “Disbursement”).</p>
-            <p>AirGarage shall be responsible for ensuring the security, privacy, and legal compliance of User Payments.  Customer assumes no responsibility for User Payments made by users to AirGarage.</p>
-            <p>If Customer believes that the Disbursement is incorrect, Customer must contact AirGarage no later than 60 days after such Disbursement.</p>
-            <p>This Agreement begins on the Effective Date and will continue indefinitely until either party gives written notice of termination with 14 day’s notice.</p>
-            <p>Customer will pay in full for the Services up to and including the last day on which the Services are provided; and AirGarage may deduct any outstanding amounts owed to AirGarage under this Agreement.</p>
-            <p>Customer agrees that in the event Customer terminates this agreement, Customer shall reimburse AirGarage for the remainder of the signage costs not yet acquired through Services Fees.</p>
-            <p>All sections of this Agreement which by their nature should survive termination will survive termination, including, without limitation, accrued rights to payment, warranty disclaimers, and limitations of liability.</p>
-            <p>Any and all disputes arising out of this Agreement shall be governed by California law.</p>
-            <p>In the event of a dispute, Customer and AirGarage shall first convene to attempt to resolve the dispute through informal meetings and discussions.</p>
-            <p>Any and all disputes arising out of this Agreement that cannot be resolved by the parties through an informal meeting process shall be resolved by binding arbitration. Arbitrations shall be conducted by the American Arbitration Association (AAA) pursuant to its Consumer Arbitration Rules and shall take place in San Francisco County, California.</p>
-            
-            <p>AirGarage shall use reasonable efforts to maintain the Services in a manner that minimizes errors and interruptions in the Services. The Services may be temporarily unavailable for scheduled maintenance or for unscheduled emergency maintenance, either by AirGarage or by third-party providers, or because of other causes beyond AirGarage’s reasonable control, but AirGarage shall use reasonable efforts to provide advance notice in writing or by e-mail of any scheduled service disruption.  However, AirGarage does not promise that the Services will be uninterrupted or error free; nor does it make any promises as to the results that may be obtained from use of the Services.  Unless we have explicitly told you otherwise in this Agreement, the Services are provided “as is” and AirGarage disclaims all warranties, express or implied, including, but not limited to, implied warranties of merchantability and fitness for a particular purpose and non-infringement.</p>
-        </div>
+      <div id="con1">
+        <h2>AirGarage Services Agreement</h2>
+        <h1>Services and Support</h1>
+        <p>
+          Basically: we help you advertise your unused spaces, collect payments
+          from drivers, and enforce against illegal parking.
+        </p>
+        <h1>Responsibilities</h1>
+        <p>
+          Basically: please don't break the law while using our service. We'll
+          cover the up front investment to bring your lot online but we don't
+          cover the ongoing cost of maintaining your parking spaces.
+        </p>
+        <h1>Payments</h1>
+        <p>
+          Basically: we'll securely collect payments from drivers on your behalf
+          and pay you at the end of each month.
+        </p>
+        <h1>Term</h1>
+        <p>
+          ‍Basically: we aren't happy if you aren't happy -- you can cancel at
+          anytime with 14 days notice.
+        </p>
+        <h1>Dispute Resolution</h1>
+        <p>
+          ‍Basically: if you're unhappy with us for some reason, we prefer to
+          have an open dialogue before you sue us into oblivion.
+        </p>
+        <h1>Disclaimers</h1>
+        <p>
+          Basically: we'll do our best to keep our service running without
+          interruption, but please forgive any occasional server hiccups.
+        </p>
+      </div>
+      <div id="con2">
+        <p>
+          This Services Agreement (“Agreement”) is entered into on the date of
+          account creation (the “Effective Date”) between AirGarage, Inc., with
+          a place of business at 2261 Market St #4027, San Francisco CA 94114
+          (“AirGarage”), and the account creator or user, with a place of
+          business as listed in their parking spot listing (“Customer”).
+        </p>
+        <p>
+          AirGarage provides a parking management solution that allows parking
+          garage and lot owners to register parking spots, set parking prices,
+          advertise and lease their identified parking spaces to potential users
+          as well as related setup and ongoing services (the “Services”).
+          Subject to the terms of this Agreement, AirGarage will use
+          commercially reasonable efforts to provide the Services to Customer
+        </p>
+        <p>
+          Customer will use the Services only in compliance with this Agreement
+          and all applicable laws and regulations. Customer agrees to indemnify
+          and hold harmless AirGarage against any damages, losses, liabilities,
+          settlements and expenses (including without limitation costs and
+          attorneys’ fees) in connection with any claim or action that arises
+          from Customer’s violation of this Agreement or otherwise from its use
+          of the Services. Customer agrees to indemnify and hold harmless
+          AirGarage against any damages or liabilities (including without
+          limitation costs and attorneys’ fees) in connection with any claim or
+          action that arises from Customer’s use of the Services.
+        </p>
+        <p>
+          Customer shall cooperate with AirGarage in its performance of the
+          Services and provide access to Customer’s premises, equipment or
+          service providers as required to enable AirGarage to provide the
+          Services.
+        </p>
+        <p>
+          Customer authorizes AirGarage to enforce any parking requirements or
+          conditions, including towing or immobilization of automobiles, on
+          behalf of Customer. ‍
+        </p>
+        <p>
+          AirGarage agrees to pay for all physical signage and related
+          installation costs necessary to provide the Services.
+        </p>
+        <p>
+          AirGarage shall own and retain all right, title, and interest in and
+          to any signage or equipment provided as part of the Services.
+        </p>
+        <p>
+          AirGarage maintains an umbrella insurance policy having the specific
+          terms set forth in the Certificate of Liability Insurance to be
+          provided to Customer subsequent to the execution of this Agreement.
+          AirGarage shall use its best efforts to continue to maintain the same
+          or a substantially identical umbrella insurance policy during the term
+          of the Agreement.
+        </p>
+        <p>
+          Customer alone is responsible for the maintenance and upkeep of
+          Customer’s parking garage or lot.
+        </p>
+        <p>
+          AirGarage shall collect parking and related fees from parking lot
+          users in accordance with the applicable price listed by AirGarage on
+          its website for the use of designated parking spots (“User Payments”).
+          AirGarage will retain 30% of any User Payments for the Services
+          provided to Customer (“Services Fees”) and shall disburse the
+          remainder of User Payments, less these Services Fees, to Customer on a
+          monthly basis by the fifth day of each month for all amounts accrued
+          in the prior month (the “Disbursement”).
+        </p>
+        <p>
+          AirGarage shall be responsible for ensuring the security, privacy, and
+          legal compliance of User Payments. Customer assumes no responsibility
+          for User Payments made by users to AirGarage.
+        </p>
+        <p>
+          If Customer believes that the Disbursement is incorrect, Customer must
+          contact AirGarage no later than 60 days after such Disbursement.
+        </p>
+        <p>
+          This Agreement begins on the Effective Date and will continue
+          indefinitely until either party gives written notice of termination
+          with 14 day’s notice.
+        </p>
+        <p>
+          Customer will pay in full for the Services up to and including the
+          last day on which the Services are provided; and AirGarage may deduct
+          any outstanding amounts owed to AirGarage under this Agreement.
+        </p>
+        <p>
+          Customer agrees that in the event Customer terminates this agreement,
+          Customer shall reimburse AirGarage for the remainder of the signage
+          costs not yet acquired through Services Fees.
+        </p>
+        <p>
+          All sections of this Agreement which by their nature should survive
+          termination will survive termination, including, without limitation,
+          accrued rights to payment, warranty disclaimers, and limitations of
+          liability.
+        </p>
+        <p>
+          Any and all disputes arising out of this Agreement shall be governed
+          by California law.
+        </p>
+        <p>
+          In the event of a dispute, Customer and AirGarage shall first convene
+          to attempt to resolve the dispute through informal meetings and
+          discussions.
+        </p>
+        <p>
+          Any and all disputes arising out of this Agreement that cannot be
+          resolved by the parties through an informal meeting process shall be
+          resolved by binding arbitration. Arbitrations shall be conducted by
+          the American Arbitration Association (AAA) pursuant to its Consumer
+          Arbitration Rules and shall take place in San Francisco County,
+          California.
+        </p>
+
+        <p>
+          AirGarage shall use reasonable efforts to maintain the Services in a
+          manner that minimizes errors and interruptions in the Services. The
+          Services may be temporarily unavailable for scheduled maintenance or
+          for unscheduled emergency maintenance, either by AirGarage or by
+          third-party providers, or because of other causes beyond AirGarage’s
+          reasonable control, but AirGarage shall use reasonable efforts to
+          provide advance notice in writing or by e-mail of any scheduled
+          service disruption. However, AirGarage does not promise that the
+          Services will be uninterrupted or error free; nor does it make any
+          promises as to the results that may be obtained from use of the
+          Services. Unless we have explicitly told you otherwise in this
+          Agreement, the Services are provided “as is” and AirGarage disclaims
+          all warranties, express or implied, including, but not limited to,
+          implied warranties of merchantability and fitness for a particular
+          purpose and non-infringement.
+        </p>
+      </div>
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-</body>
+  </body>
 </html>
- <script>
-    document.getElementById("img").addEventListener("click",index);
-    function index(){
-        window.location.href="index.html"
-    }
-    mybutton = document.getElementById("myBtn");
-    window.onscroll = function() {scrollFunction()};
+<script>
+  document.getElementById("img").addEventListener("click", index);
+  function index() {
+    window.location.href = "index.html";
+  }
+  mybutton = document.getElementById("myBtn");
+  window.onscroll = function () {
+    scrollFunction();
+  };
 
-    function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
     } else {
-    mybutton.style.display = "none";
+      mybutton.style.display = "none";
     }
-    }
-    function topFunction(){
+  }
+  function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-
-
- </script>
+  }
+</script>

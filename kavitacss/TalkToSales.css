@@ -35,11 +35,10 @@
         height: 600px;
     }
     #left>img:first-child{
-        width: 15%;
-        height: 7%;
+        width: 21%;
         margin: auto;
-        margin-top: 40px;
-        margin-bottom: 40;
+        margin-bottom: 22px;
+        margin-top: 33px;
     }
     #left>img:nth-child(2){
         width: 35%;
@@ -64,12 +63,13 @@
        white-space: normal;
     }
     #form{
-       height: 500px;
-       margin: auto;  
-       width: 80%;
-       border-radius: 19px;
-       box-shadow: 1px 1px 18px 3px hsla(0, 0%, 92%, 0.6); 
-       margin-top: 10px;
+        height: 407px;
+        margin: auto;
+        width: 80%;
+        border-radius: 19px;
+        box-shadow: 1px 1px 18px 3px hsl(0deg 0% 92% / 60%);
+        margin-top: 10px;
+        padding: 50px 0px;
     }
     #btn{
         height: 50px;
@@ -142,13 +142,12 @@ left: -10px;
     margin-top: 40px;
     border: 1px solid transparent;
     margin-bottom: 200px;
+    cursor: pointer;
 }
 #top4>h1{
     margin-top: 40px;
 }
-  #btn:hover{
-    animation: btn 800ms normal;
-    }
+
 #top5{
     width: 60%;
     height: 1200px;
@@ -360,8 +359,7 @@ margin: auto;
   margin-top: 100px;
 } 
 #end>img{
-    height: 100%;
-    width: 100%;
+    width: 144%;
 }
 #bottom:hover{
     animation:image 900ms normal;
@@ -380,6 +378,14 @@ margin: auto;
     25%{transform: translate3d(0px, 0px, 0px) scale3d(0.782535, 0.782535, 0.782535) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
     50%{transform: translate3d(0px, 0px, 0px) scale3d(0.99625, 0.99625, 0.99625) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
     
+}
+#btn:hover{
+    animation:button 1s normal;
+}
+@keyframes button {
+    0%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+    50%{transform: translate3d(0px, 0px, 0px) scale3d(0.84323, 0.84323, 0.84323) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+    100%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
 }
 
    

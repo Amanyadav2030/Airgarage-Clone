@@ -27,7 +27,7 @@ function myfunction(){
     monthly.innerText="Monthly";
     monthly.id="monthly"; 
     monthly.onclick=()=>{
-         change = document.querySelector('#type div');
+        let change = document.querySelector('#type div');
         change.innerText="Monthly";
         change.id="monthly"
     }
@@ -35,7 +35,7 @@ function myfunction(){
     let hourly = document.createElement('div');
     hourly.id="hourly";
     hourly.onclick=()=>{
-         change = document.querySelector('#type div');
+        let change = document.querySelector('#type div');
         change.innerText="Hourly";
         change.id="hourly"
     }
@@ -44,7 +44,7 @@ function myfunction(){
     airport.innerText = "Airport";
     airport.id="airport";
     airport.onclick=()=>{
-         change = document.querySelector('#type div');
+        let change = document.querySelector('#type div');
         change.innerText="Airport";
         change.id="airport"
     }

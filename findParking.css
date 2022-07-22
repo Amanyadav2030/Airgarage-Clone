@@ -26,7 +26,7 @@ background-color: #ffeecc;
 }
 #location{
     width: 69%;
-    gap: 33px;
+    gap: 26px;
     display: flex;
     border: 1px solid transparent;
     margin: auto;
@@ -70,16 +70,16 @@ h4{
     border-radius: 5px;
     align-items: center;
     font-family: "Lato","Helvetica Neue",Arial,Helvetica,sans-serif;
-
+}
+#type:hover{
+    box-shadow: #6091f3 0px 1px 5px;
+    border: 1px solid blue;
 }
 .fa-caret-down{
     position: absolute;
     color: gray;
     left: 66%;
     font-size: 14px;
-}
-#type:hover{
-    border: 1px solid rgb(39, 38, 38);
 }
 #button{
     margin-top: 23px;
@@ -98,12 +98,14 @@ h4{
     cursor: pointer;  
 }
 #bar{
+   
     padding: 3px 0px;
     border: 1px solid;
-    position: relative;
-    /* bottom: -24px; */
-    top: -2px;
+    position: absolute;
+    top: 288px;
     border-radius: 6px;
+    width: 226px;
+
 }
 #bar div{
     width: 76%;
@@ -163,6 +165,9 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+#footer p::selection{
+    color: black;
 }
 ul{
     justify-content: center;
