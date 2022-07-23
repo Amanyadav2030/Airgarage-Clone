@@ -29,7 +29,7 @@ img
 }
 #Main_Img1
 {
-   
+
     
     grid-template-rows: repeat(1,);
     grid-template-columns: repeat(2, 1fr);
@@ -37,43 +37,41 @@ img
     display: grid;
     margin: 165px ;
     gap: 0px;
-
-
 }
 
-#img1
+#Nav2-img
 { 
     width: 260px;
     height: 240px;
     margin-left: 530px;
-   
+
 }
 
 #img2>img
 {
-   width: 436px;
-   margin-top: 40px;
-   border-radius: 10px;
-   margin-left: 0px;
-   margin-top: 0px;
+width: 436px;
+margin-top: 40px;
+border-radius: 10px;
+margin-left: 0px;
+margin-top: 0px;
 }
 
- #small_Imgs
+#small_Imgs
 {
     width: 60%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1);
     display: grid;
     gap: 10px;
-   
-   
-   
+
+
+
 } 
 #small_Img1, #small_Img2, #small_Img3
 {
-   margin: auto;
-   width: 80px;
-   height: 20px;
+margin: auto;
+width: 80px;
+height: 20px;
 }
 
 #small_Img1
@@ -88,10 +86,10 @@ img
 
 #Mid-Portion>h2
 {
-   font-family: sans-serif;
-   font-size: 32px;
-   color: #333333;
-   margin: 20px 0px 10px;
+font-family: sans-serif;
+font-size: 32px;
+color: #333333;
+margin: 20px 0px 10px;
 }
 #Mid-Portion>p
 {
@@ -147,19 +145,28 @@ h2{
 {
     width: 70%;
 }
-#H1
+#Nav2-H1
 {
     margin-left: 280px;
-    font-family: 'Louis george cafe', sans-serif;
+    font-family: 'Retroica', sans-serif;
     color: #333333;
     font-size: 38px;
 }
-#P1
+#Nav2-P1
+{
+    color: #333333;
+    font-size: 20px;
+    font-family: "Louis george cafe ", sans-serif;
+    text-align: center;
+}
+
+#smallp
 {
     color: #333333;
     font-size: 20px;
     font-family: 'Louis george cafe', sans-serif;
-    margin-left: 220px;
+    text-align: center;
+    margin-top: 0px;
 }
 #btn1
 {
@@ -174,18 +181,18 @@ h2{
 
 #Ag_Imgs
 {
-   display: grid ;
-   width: 70%;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(1, 300px);
-   height: 300px;
-   margin-left: 165px;
-   gap: 4px;
+display: grid ;
+width: 70%;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(1, 300px);
+height: 300px;
+margin-left: 165px;
+gap: 4px;
 }
 #Ag_Imgs>div:hover
 {
     border: 1px solid #A1A6AF;
-   
+
     
 }
 
@@ -222,15 +229,16 @@ h2{
 
 #better_deal
 {
-   width: 63%;
-   border: 1px solid #A1A6AF;
-   height: 150px;
-   margin-left: 165px;
-   margin-top: 50px;
-   text-align: center;
-   padding: 20px 40px 40px;
-   background-color: rgb(255, 244, 244);
-   border-color: #cbcdd1;
+width: 63%;
+border: 1px solid #A1A6AF;
+height: 150px;
+margin-left: 165px;
+margin-top: 50px;
+text-align: center;
+padding: 20px 40px 40px;
+background-color: #ebebeb;
+border-color: #cbcdd1;
+border-radius: 8px;
 }
 
 #better_deal>h1
@@ -255,13 +263,13 @@ h2{
 
 #Edge_imgs
 {
-   display: grid ;
-   width: 70%;
-   grid-template-columns: repeat(2, 1fr);
-   height: 500px;
-   margin-left: 162px;
-   gap: 20px;
-   margin-top: 100px;
+display: grid ;
+width: 70%;
+grid-template-columns: repeat(2, 1fr);
+height: 500px;
+margin-left: 162px;
+gap: 20px;
+margin-top: 100px;
 }
 #Edge_imgs>div
 {
@@ -312,7 +320,7 @@ h2{
     transition:animation 10ms;
     transition-delay:10ms; 
 }
- .Items>img:hover
+.Items>img:hover
 {
     animation:image 800ms normal;
 } 
@@ -325,4 +333,197 @@ h2{
     100%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
 }
 
+@keyframes rotate 
+{
+    0%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+    25%{transform: translate3d(0px, 0px, 0px) scale3d(0.782535, 0.782535, 0.782535) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)}
+    50%{transform: translate3d(10px, 100px, 10px) scale3d(0.99625, 0.99625, 0.99625) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+    75%{transform: translate3d(80px, 0px, 0px) scale3d(0.859321, 0.859321, 0.859321) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+    100%{transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);}
+}
 
+/* GRAPHS CODE */
+
+
+
+.tab>img
+{
+    width: 80%;
+    margin-left: 140px;
+}
+
+.mytabs
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+.mytabs input[type="radio"]
+{
+    display: none;
+    
+}
+.mytabs label
+{
+    padding: 10px;
+    background: #e2e2e2;
+    font-weight: bold;
+    font-size: 18px;
+    
+
+}
+.mytabs .tab
+{
+    padding: 25px;
+    order: 1;
+    display: none;
+}
+
+.mytabs input[type="radio"]:checked + label + .tab
+{
+    display: block;
+}
+.mytabs input[type="radio"]:checked + label:hover
+{
+        background: #a1a1a1;
+}
+
+.mytabs label:hover
+{
+    cursor: pointer;
+}
+#daily:hover, #online:hover, #dash:hover
+{
+    background-color:#a1a1a1 ;
+}
+
+label
+{
+    margin-left: 160px;
+    margin-top: 50px;
+    gap: 2px;
+    font-family: sans-serif;
+}
+
+    /* graph code ends */
+
+
+    #Investors
+{
+    margin-top: 100px;
+    margin-left: 160px;
+}
+#Investors>h2{
+    font-size: 32px;
+    color: #333333;
+    margin: 20px 0px 10px;
+    font-family: sans-serif;
+}
+#Investors>p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #A1A6AF ;
+}
+
+#Investors_Imgs
+{
+    display: flex;
+    padding: 10px 0px 10px;
+    margin-left: 0px;
+}
+.Inv_Img>img
+{
+    width: 180px;
+}
+.Inv_Img>#Inv_Img3,#Inv_Img4,#Inv_Img5,#Inv_Img6
+{
+    padding: 20px;
+    margin-left: 130px;
+}
+
+#Edge1
+{
+    width: 75%;
+    height: 360px;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid #e1e4e9;
+    display: grid;
+    margin: 100px 0px 0px 155px;
+    border-radius: 10px;
+}
+
+#Edge1>.Edges1
+{
+    width: 120%;
+}
+
+.Edges1>h2
+{
+    font-size: 32px;
+    color: #333333;
+    font-family:  Helvetica, sans-serif;
+    margin: 20px 20px 10px ;
+}
+.Edges1>h3
+{
+    font-size: 24px;
+    color: #333333;
+    margin: 20px 20px 10px;
+    font-family: sans-serif;
+    width: 95%;
+}
+.Edges1>p
+{
+    font-size: 16px;
+    color: #A1A6AF;
+    width: 104%;
+    margin-left: 20px;
+}
+
+.Edges1>a
+{
+color: red;
+margin-left: 20px;
+}
+.Edges2>img
+{
+width: 350px;
+padding-right: 80px;   
+padding-top: 100px;
+}
+.Edges2>img:hover
+{
+    animation:rotate 3880ms forwards;
+}
+
+#Last>h1
+{
+    font-size: 38px;
+    color: #121213;
+    font-family: "Retroica", sans-serif;
+}
+#Last>p
+{
+    font: 16px;
+    color: #A1A6AF;
+    font-family: "Louis george cafe", sans-serif;
+}
+#Last
+{
+width: 63%;
+border: 1px solid #A1A6AF;
+height: 150px;
+margin-left: 165px;
+margin-top: 50px;
+text-align: center;
+padding: 20px 40px 40px;
+background-color: #ebebeb;
+border-color: #cbcdd1;
+border-radius: 8px;
+}
+
+#Last:hover
+{
+    animation:image 5000ms backwards;
+} 
