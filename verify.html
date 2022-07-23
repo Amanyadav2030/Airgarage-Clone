@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airgarage Dashboard</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <style>
+         #logimg{
+            width: 40%;
+            /* border: 2px solid red; */
+            background-color: bisque;
+            margin-top: -40px;
+            margin-left: -20px;
+            height: 600px
+        }
+        #logimg>div{
+            /* border: 2px solid red; */
+            margin-top: 40px;
+            margin-left: 20px;
+            width: 150px;
+        }
+        #img1{
+            width: 100%;
+            margin-top: 10px;
+        }
+        #logimg>:nth-child(2){
+            margin-top: 150px;
+            /* background-color: aqua; */
+            height: 100px;
+            width: 80%
+        }
+        #img2{
+            width: 100%;
+        }
+        body{
+            display: flex;
+        }
+        #ver{
+            margin-top: 150px;
+            margin-left: 100px;
+        }
+        #h1{
+            width: 300px;
+        }
+        #pin{
+            width: 200px;
+            
+           
+        }
+        #but{
+            width: 100px;
+            background-color: antiquewhite;
+            border-radius: 10px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="logimg">
+        <div>
+            <img id="img1" src="https://dashboard.airgarage.com/static/media/AirGarage.919cc784.png" alt="">
+        </div>
+        <div>
+            <img id="img2" src="https://dashboard.airgarage.com/static/media/money_machine.b5d474b0.png" alt="">
+        </div>
+    </div>
+    <div id="ver">
+         <h1 id="h1"></h1>
+        <input id="pin" type="text" maxlength="5" placeholder="Enter pin here"/>
+        <button id="but" onclick="sub()">Submit</button>
+    </div>
+   
+</body>
+</html>
+<script src="./channascripts/verify.js"></script>

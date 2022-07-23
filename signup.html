@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airgarage Dashboard</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <style>
+         #logimg{
+            width: 40%;
+            /* border: 2px solid red; */
+            background-color: bisque;
+            margin-top: -40px;
+            margin-left: -20px;
+            height: 800px
+        }
+        #logimg>div{
+            /* border: 2px solid red; */
+            margin-top: 40px;
+            margin-left: 20px;
+            width: 150px;
+        }
+        #img1{
+            width: 100%;
+            margin-top: 10px;
+        }
+        #logimg>:nth-child(2){
+            margin-top: 150px;
+            /* background-color: aqua; */
+            height: 100px;
+            width: 80%
+        }
+        #img2{
+            width: 100%;
+        }
+        body{
+            display: flex;
+        }
+        #head{
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+        #sigh{
+            margin-top:80px;
+            margin-left: -400px;
+        }
+        .input{
+            width: 300px;
+            height: 50px;
+            outline: none;
+        }
+        #checkbox{
+         
+          height: 10px;
+          width: 11px;
+          margin-top: 12px;
+        }
+        #div{
+            display:flex;
+            gap: 5px;
+            margin-top: -20px;
+            /* border: 2px solid yellow; */
+        }
+        a{
+            text-decoration: none;
+        }
+        #but{
+            width: 100px;
+            height: 50px;
+            background-color: bisque;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="logimg">
+        <div>
+            <img id="img1" src="https://dashboard.airgarage.com/static/media/AirGarage.919cc784.png" alt="">
+        </div>
+        <div>
+            <img id="img2" src="https://dashboard.airgarage.com/static/media/money_machine.b5d474b0.png" alt="">
+        </div>
+    </div>
+
+    <h1 id="head">Sign up for AirGarage</h1>
+    <div id="sigh">
+        <h2>First Name</h2>
+        <input type="text" class="input" placeholder=" &#128100 Enter your first name (Ex:John)">
+        <h2>Last Name</h2>
+        <input type="text" class="input" placeholder=" &#128100 Enter your last name (Ex:Wick)">
+        <h2>Email</h2>
+        <input type="text" class="input" name="" id="" placeholder=" @ Enter your email(Ex:abs@123.gmail.com)">
+        <h2>Password</h2>
+        <input type="password" class="input" placeholder=  "&#128274 Enter your password">
+         <p> I agree to the:</p>
+         <div id="div">
+         <div id="checkbox">&#9745</div>
+         <div><p> Lot Owner <a href="./serviceandagreement.html">Service Agreement</a></p></div> 
+        </div>
+        <button id="but">Submit</button>
+    </div>
+</body>
+</html>
+<script src="./channascripts/signup.js"></script>

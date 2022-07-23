@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 #container{
-    border: 1px solid orange;
+    border: 1px solid transparent;
     width: 96%;
     margin: -3px auto;
     display: flex;
+    gap: 12px;
     
 }
 #parking{
-    border: 1px solid teal;
+    border: 1px solid transparent;
     width: 50%;
 }
 a>p{
@@ -98,9 +99,7 @@ a{
     font-size: 17px;
     font-weight: 100;
 }
-#dollar{
 
-}
 #rentalType{
     font-size: 25px;
     color: #b0b7d4;
@@ -154,9 +153,28 @@ a{
     font-family: 'Source Sans Pro', sans-serif;
 }
 #footer p{
-    
     margin-top: 30px;
-
 }
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 540px;
+    width: 650px;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 540px;
+    width: 650px;
+    border-radius: 5px;
+  }
+  iframe{
+    width: 640px;
+    height: 540px;
+    border-radius: 10px;
+  }
 
     

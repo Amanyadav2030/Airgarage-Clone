@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet" href="findParking.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/4560e2a1c5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="logo">
+      <img
+        src="https://parking.airgarage.com/static/media/AirGarage.919cc784.png"
+        alt="Airgarage"
+      />
+    </div>
+    <div id="header">
+      <h1>Find parking</h1>
+      <p>100s of spots available near you.</p>
+    </div>
+    <div id="location">
+      <div id="search">
+        <h4>LOCATION</h4>
+        <input
+          type="text" 
+          id="address"
+          placeholder="Enter an address"
+          autocomplete="off"
+        />
+        <div id="locations"></div>
+      </div>
+      <div id="box">
+        <h4>TYPE</h4>
+        <div id="type">
+          <div id="monthly">Monthly</div>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div id="item"></div>
+      </div>
+      <div id="button">SEARCH</div>
+    </div>
+    <h2>Popular Search</h2>
+    <div id="container">
+      <div id="Losangeles">
+        <img
+          src="https://parking.airgarage.com/static/media/hollywood.3cda80f5.png"
+          alt=""
+        />
+        <h1>Los Angeles</h1>
+        <p>15 spot available</p>
+      </div>
+      <div id="Omaha">
+        <img
+          src="https://parking.airgarage.com/static/media/omaha.47180892.png"
+          alt=""
+        />
+        <h1>Omaha</h1>
+        <p>14 spot available</p>
+      </div>
+      <div id="Annarbor">
+        <img
+          src="https://parking.airgarage.com/static/media/a2.29e68f98.png"
+          alt=""
+        />
+        <h1>Ann Arbor</h1>
+        <p>12 spot available</p>
+      </div>
+      <div id="Tempe">
+        <img
+          src="https://parking.airgarage.com/static/media/cacti.0300cb19.png"
+          alt=""
+        />
+        <h1>Tempe</h1>
+        <p>21 spot available</p>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+<script src="findParking.js" type="module"></script>
