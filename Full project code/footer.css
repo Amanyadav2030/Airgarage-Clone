@@ -1,0 +1,102 @@
+#kfooter {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 450px;
+    border: 1px solid transparent;
+    background-color: #fec;
+    font-family: 'Louis george cafe', sans-serif;
+    position: sticky;
+    margin-top: 100px;
+}
+
+#kfooter>div {
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+#kfooter>div>p {
+    /* justify-content: right; */
+    margin-top: 35px;
+    color: #a1a6af;
+    text-align: end;
+
+}
+
+.i>img {
+
+    width: 111%
+}
+
+.i {
+    margin-top: -15px;
+    width: 15%;
+    height: 40px;
+}
+
+#inner_foot {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px;
+    margin-top: 40px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #dd703f;
+}
+
+#inner_foot>div>p:first-child {
+    color: #a1a6af;
+    font-family: 'Louis george cafe', sans-serif;
+    font-size: 16;
+}
+
+#inner_foot>div:last-child {
+    text-align: end;
+}
+
+#inner_foot>div>p {
+    display: block;
+    padding-top: 0px;
+    font-family: 'Louis george cafe', sans-serif;
+    color: #dd703f;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Avenirltstd, sans-serif;
+}
+
+#line {
+    border: 1px solid #dd703f;
+    /* border: 1px solid black; */
+
+    width: 60%;
+    /* margin-top: -50px; */
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin: auto;
+    height: 50px;
+}
+
+#last>p {
+
+    font-family: 'Louis george cafe', sans-serif;
+    color: #a1a6af;
+    font-size: 16px;
+    line-height: 24px;
+    /* font-style: normal; */
+    text-align: left;
+    text-decoration: none;
+    /* white-space: normal; */
+
+}
+
+a {
+    text-decoration: none;
+    color: #dd703f;
+    font-size: 13px;
+    font-family: Avenirltstd, sans-serif;
+}
