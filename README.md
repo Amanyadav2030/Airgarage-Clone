@@ -1,14 +1,10 @@
 # AirGarage-Clone-Project
-This is our project
-Footer -> Kavita Uses features and find parking. And also responsibilities of functionality
 
-Footer container company -> Shivang kumar -> About  FAQS ContactUs PrivacyPolicy And also responsibilities of functionality
+AirGarage enables churches and businesses with extra spaces to rent them out to drivers on-demand and boost their bottom line.
 
-Home-> Sandeep Prajapati  And also responsibilities of functionality
-
-Login-Sigup-> Channa And also responsibilities of functionality
-
-Talks to Sales-> Kavita and subpage ->Aman And also responsibilities of functionality
-Find parking->Aman yadav And also responsibilities of functionality
+Tech Slack used : 
+HTML,
+Java-Script,
+Css,
 
 
