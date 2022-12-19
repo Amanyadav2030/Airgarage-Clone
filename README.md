@@ -8,7 +8,7 @@
 AirGarage enables churches and businesses with extra spaces to rent them out to drivers on-demand and boost their bottom line.
 
 
-## This is a collaborative Project with a Team of 5 members
+## This is a collaborative Project made with a Team of 5 members
 
 <image src="https://avatars.githubusercontent.com/u/103621772?v=4" width="60px"/> 
 <image src="https://avatars.githubusercontent.com/u/103635080?v=4" width="60px"/>
